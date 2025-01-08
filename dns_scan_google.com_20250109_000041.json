@@ -1,0 +1,100 @@
+{
+    "domain": "google.com",
+    "scan_time": "2025-01-09 00:00:35",
+    "records": {
+        "A": [
+            "172.217.17.142"
+        ],
+        "AAAA": [
+            "2a00:1450:4017:80e::200e"
+        ],
+        "MX": [
+            "10 smtp.google.com."
+        ],
+        "NS": [
+            "ns1.google.com.",
+            "ns4.google.com.",
+            "ns2.google.com.",
+            "ns3.google.com."
+        ],
+        "TXT": [
+            "\"apple-domain-verification=30afIBcvSuDV2PLX\"",
+            "\"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289\"",
+            "\"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ\"",
+            "\"google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0\"",
+            "\"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o\"",
+            "\"onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef\"",
+            "\"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e\"",
+            "\"cisco-ci-domain-verification=479146de172eb01ddee38b1a455ab9e8bb51542ddd7f1fa298557dfa7b22d963\"",
+            "\"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=\"",
+            "\"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB\"",
+            "\"v=spf1 include:_spf.google.com ~all\"",
+            "\"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95\""
+        ],
+        "SOA": [
+            "ns1.google.com. dns-admin.google.com. 712842461 900 900 1800 60"
+        ],
+        "CNAME": [
+            "Hata: The DNS response does not contain an answer to the question: google.com. IN CNAME"
+        ]
+    },
+    "whois": {
+        "registrar": "MarkMonitor, Inc.",
+        "creation_date": "[datetime.datetime(1997, 9, 15, 4, 0), datetime.datetime(1997, 9, 15, 7, 0, tzinfo=datetime.timezone.utc)]",
+        "expiration_date": "[datetime.datetime(2028, 9, 14, 4, 0), datetime.datetime(2028, 9, 13, 7, 0, tzinfo=datetime.timezone.utc)]",
+        "name_servers": [
+            "NS1.GOOGLE.COM",
+            "NS2.GOOGLE.COM",
+            "NS3.GOOGLE.COM",
+            "NS4.GOOGLE.COM"
+        ],
+        "status": [
+            "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+            "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+            "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+            "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+            "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+            "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+            "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+            "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+            "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+            "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+            "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+        ],
+        "emails": [
+            "abusecomplaints@markmonitor.com",
+            "whoisrequest@markmonitor.com"
+        ]
+    },
+    "subdomains": [
+        {
+            "subdomain": "www.google.com",
+            "ip": "172.217.17.132"
+        },
+        {
+            "subdomain": "mail.google.com",
+            "ip": "216.58.213.101"
+        },
+        {
+            "subdomain": "admin.google.com",
+            "ip": "216.58.214.142"
+        },
+        {
+            "subdomain": "blog.google.com",
+            "ip": "216.58.212.9"
+        },
+        {
+            "subdomain": "api.google.com",
+            "ip": "142.251.141.36"
+        },
+        {
+            "subdomain": "shop.google.com",
+            "ip": "74.125.133.92"
+        },
+        {
+            "subdomain": "store.google.com",
+            "ip": "142.250.187.142"
+        }
+    ]
+}

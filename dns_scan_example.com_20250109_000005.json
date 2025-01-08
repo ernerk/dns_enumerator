@@ -1,0 +1,50 @@
+{
+    "domain": "example.com",
+    "scan_time": "2025-01-08 23:59:50",
+    "records": {
+        "A": [
+            "93.184.215.14"
+        ],
+        "AAAA": [
+            "2606:2800:21f:cb07:6820:80da:af6b:8b2c"
+        ],
+        "MX": [
+            "0 ."
+        ],
+        "NS": [
+            "b.iana-servers.net.",
+            "a.iana-servers.net."
+        ],
+        "TXT": [
+            "\"v=spf1 -all\"",
+            "\"wgyf8z8cgvm2qmxpnbnldrcltvk4xqfn\""
+        ],
+        "SOA": [
+            "ns.icann.org. noc.dns.icann.org. 2024081491 7200 3600 1209600 3600"
+        ],
+        "CNAME": [
+            "Hata: The DNS response does not contain an answer to the question: example.com. IN CNAME"
+        ]
+    },
+    "whois": {
+        "registrar": "RESERVED-Internet Assigned Numbers Authority",
+        "creation_date": "1995-08-14 04:00:00",
+        "expiration_date": "2025-08-13 04:00:00",
+        "name_servers": [
+            "A.IANA-SERVERS.NET",
+            "B.IANA-SERVERS.NET"
+        ],
+        "status": [
+            "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+            "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+        ],
+        "emails": null
+    },
+    "subdomains": [
+        {
+            "subdomain": "www.example.com",
+            "ip": "93.184.215.14"
+        }
+    ]
+}

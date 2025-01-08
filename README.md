@@ -6,7 +6,9 @@ A powerful DNS enumeration tool for gathering and analyzing detailed DNS informa
 
 - Comprehensive DNS record scanning (A, AAAA, MX, NS, TXT, SOA, CNAME)
 - WHOIS information gathering
-- Common subdomain detection
+- Common subdomain detection with multi-threading
+- Reverse DNS lookup
+- Common ports scanning
 - Colored terminal output
 - JSON report generation
 
@@ -35,7 +37,9 @@ python dns_enumerator.py example.com
 When run, the program:
 - Scans DNS records
 - Gathers WHOIS information
-- Checks for common subdomains
+- Checks for common subdomains (multi-threaded)
+- Performs reverse DNS lookups
+- Scans common ports
 - Saves results to a JSON file
 
 Example output:
@@ -54,6 +58,13 @@ Example output:
 [*] Checking common subdomains...
 [+] Found subdomain: www.example.com (93.184.216.34)
 [+] Found subdomain: mail.example.com (93.184.216.34)
+
+[*] Performing reverse DNS lookup...
+[+] Reverse DNS: 93.184.216.34 -> example.com
+
+[*] Checking common ports...
+[+] Open port found: 80 (http)
+[+] Open port found: 443 (https)
 
 [+] Results saved to: dns_scan_example.com_20250108_235500.json
 
@@ -78,9 +89,21 @@ Example output:
 - Contact information
 
 ### Subdomain Discovery
-- Checks common subdomain patterns
+- Multi-threaded subdomain scanning
+- Extended list of common subdomains
 - Lists active subdomains with IP addresses
 - Identifies potential hidden services
+
+### Reverse DNS Lookup
+- Performs reverse DNS queries
+- Maps IP addresses to hostnames
+- Identifies additional domain names
+
+### Port Scanning
+- Scans common ports (21, 22, 23, 25, 53, 80, etc.)
+- Service identification
+- Multi-threaded scanning
+- Timeout controls for efficiency
 
 ### Reporting
 - Real-time colored terminal output
